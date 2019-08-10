@@ -5,7 +5,7 @@ import cv2
 
 
 # Open the input movie file
-input_video = cv2.VideoCapture('input1.avi')
+input_video = cv2.VideoCapture('input1.mp4')
 length = int(input_video.get(cv2.CAP_PROP_FRAME_COUNT))
 
 # Create an output movie file (make sure resolution/frame rate matches input video!)
